@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package rustlog.models;
+message Record {
+  bytes value = 1;
+  optional uint64 offset = 2;
+}
